@@ -137,7 +137,7 @@
                     <li class="list-inline-item"><a href="terms/terms.html">Terms</a></li>
                     <li class="list-inline-item"><a href="terms/privacypolicy.html">Privacy Policy</a></li>
                 </ul>
-                <p class="copyright">1296KmClose © 2020, Designed by <a href="#">yve.</a></p>
+                <p class="copyright">1296KmClose &copy; <span id="footerYear"></span>, Designed by <a href="#">yve.</a></p>
             </footer>
         </div>
     </div>
@@ -145,6 +145,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="assets/js/script.min.js"></script>
+    
+    <script>
+        document.getElementById("footerYear").innerText = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
